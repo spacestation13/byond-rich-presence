@@ -1,0 +1,11 @@
+[package]
+name = "byond-rich-presence"
+version = "0.0.0"
+edition = "2021"
+build = "build.rs"
+
+[package.metadata.winres]
+ProductVersion = "0.0.0"
+
+[build-dependencies]
+winres = "0.1.12"

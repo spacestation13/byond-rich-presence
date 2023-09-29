@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../Version.props" />
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+
+  <Target Name="DeleteCSAppAndImportRSApp" AfterTargets="Build">
+    <ItemGroup>
+      <FilesToDelete Include="$(OutDir)/byond-rich-presence.*"/>
+    </ItemGroup>
+    <Delete Files="@(FilesToDelete)" />
+    <Copy SourceFiles="../rust-project/target/i686-pc-windows-msvc/release/byond-rich-presence.exe" DestinationFolder="$(TargetDir)"/>
+  </Target>
+
+  <ItemGroup>
+    <PackageReference Include="squirrel.windows" Version="$(SquirrelVersion)" />
+  </ItemGroup>
+
+</Project>

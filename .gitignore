@@ -1,0 +1,7 @@
+artifacts
+src/rust-project/target
+src/squirrel-project/bin
+src/squirrel-project/obj
+src/squirrel-project/Releases
+src/squirrel-project/nuget.exe
+src/squirrel-project/*.nupkg

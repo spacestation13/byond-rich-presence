@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ByondRichPresence</id>
+    <version>0.0.0</version>
+    <title>BYOND Rich Presence</title>
+    <authors>Dominion/Cyberboss</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/spacestation13/byond-rich-presence/main/byond.ico</iconUrl>
+    <description>A Discord Rich Presence connector for BYOND games</description>
+    <language>en-CA</language>
+  </metadata>
+  <files>
+    <file src="bin\Release\net45\byond-rich-presence.exe" target="lib\net45\byond-rich-presence.exe" />
+    <file src="bin\Release\net45\DeltaCompressionDotNet.dll" target="lib\net45\DeltaCompressionDotNet.dll" />
+    <file src="bin\Release\net45\DeltaCompressionDotNet.MsDelta.dll" target="lib\net45\DeltaCompressionDotNet.MsDelta.dll" />
+    <file src="bin\Release\net45\DeltaCompressionDotNet.PatchApi.dll" target="lib\net45\DeltaCompressionDotNet.PatchApi.dll" />
+    <file src="bin\Release\net45\Mono.Cecil.dll" target="lib\net45\Mono.Cecil.dll" />
+    <file src="bin\Release\net45\Mono.Cecil.Mdb.dll" target="lib\net45\Mono.Cecil.Mdb.dll" />
+    <file src="bin\Release\net45\Mono.Cecil.Pdb.dll" target="lib\net45\Mono.Cecil.Pdb.dll" />
+    <file src="bin\Release\net45\Mono.Cecil.Rocks.dll" target="lib\net45\Mono.Cecil.Rocks.dll" />
+    <file src="bin\Release\net45\NuGet.Squirrel.dll" target="lib\net45\NuGet.Squirrel.dll" />
+    <file src="bin\Release\net45\SharpCompress.dll" target="lib\net45\SharpCompress.dll" />
+    <file src="bin\Release\net45\Squirrel.dll" target="lib\net45\Squirrel.dll" />
+  </files>
+</package>

@@ -1,0 +1,6 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Version>0.1.0</Version>
+    <SquirrelVersion>2.0.1</SquirrelVersion>
+  </PropertyGroup>
+</Project>

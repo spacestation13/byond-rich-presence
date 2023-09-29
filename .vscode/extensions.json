@@ -1,5 +1,7 @@
 {
 	"recommendations": [
-		"EditorConfig.EditorConfig"
+		"EditorConfig.EditorConfig",
+		"rust-lang.rust-analyzer",
+		"ms-vscode.powershell"
 	]
 }
